@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 Jun, 2017, 7:30:15 PM
+    Author     : shiva
+*/
+.badge:hover {
+    cursor: pointer;
+}
+.modal-dialog {
+    width: 900px;
+}
+.reports {
+
+    width: 80%;
+    margin-top: 20px;
+    margin: auto;
+    height: auto;
+    position: fixed;
+    z-index: 9999;
+}
+.form-signin {
+    border: 1px solid #eeeeee;
+    max-width: 330px;
+    padding: 50px 25px 50px 25px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 1px 5px 0 rgba(0, 0, 0, 0.12),
+        0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 14px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin .form-signin-heading {
+    font-family: monospace;
+}
+.error {
+    padding-top: 15px;
+    color: red;
+}
+.logo {
+    background-image: url(../images/IR.svg);
+    height: 80px;
+    width: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+}
+.person {
+    margin-left: 20px;
+    padding-left: 5px;
+    background-image: url(../images/person.svg);
+    height: 60px;
+    width: 60px;
+    border-radius: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.row .content {
+    max-height: 100%;
+}
+.sidenav {
+    border-left: 1px solid #eeeeee;
+}
+.tab-content {
+    border-left: 1px solid #eeeeee;
+    padding-bottom: 20px;
+}
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+.card {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #eee;
+    padding: 20px 20px 5px 20px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #eee;
+    padding: 20px 20px 5px 20px;
+
+}
+.card-group {
+
+}
+.alert_1 {
+    width: 300px;
+    position: fixed; 
+    right: 30px;
+    bottom: 5px;
+}
+.alert_2 {
+    width: 300px;
+    position: fixed; 
+    left: 30px;
+    bottom: 5px;
+}
+.nav-pills>li>a {
+    border-radius: 1px;
+}
+
+.username {
+    height: 60px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 3px;
+}
+
+.logout {
+    transition: all 200ms;
+}
+.logout:hover {
+    background-color: #d32f2f !important;
+    color: white;
+}
+.marquee {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.modal-content {
+    border-radius: 0px;
+}
+.modal-header {
+    color: white;
+    background-color: #212121;
+}
+.modal-header .close {
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .row.content {
+        height: auto;
+    }
+}
